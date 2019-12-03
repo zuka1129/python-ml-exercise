@@ -1,0 +1,61 @@
+<aiml version="1.0.1" encode="UTF-8">
+    <category>
+        <pattern>hello</pattern>
+        <template>nihaoa</template>
+    </category>
+    <category>
+        <pattern>*丹</pattern>
+        <template>你好啊，臭丹</template>
+    </category>
+    <category>
+        <pattern>我是*</pattern>
+        <template>你好啊，<star index="1"/></template>
+    </category>
+    <category>
+        <pattern>*干*</pattern>
+        <template>我在和你聊天啊，你呢，刚在干嘛？</template>
+    </category>
+    <category>
+        <pattern>我在看*</pattern>
+        <template>是吗，你在看什么<set name="topic">电视</set>啊</template>
+    </category>
+    <category>
+        <pattern>我在玩*</pattern>
+        <template>是吗，你在玩<set name="topic">手机</set>啊</template>
+    </category>
+    <topic name="电视">
+        <category>
+            <pattern>*</pattern>
+            <template>好看吗？</template>
+        </category>
+        <category>
+            <pattern>好看啊</pattern>
+            <template>好吧，那你看吧？回聊</template>
+        </category>
+    </topic>
+    <topic name="手机">
+        <category>
+            <pattern>是的</pattern>
+            <template>哈哈，不如我们来做游戏吧</template>
+        </category>
+    </topic>
+    <category>
+        <pattern>my name is *</pattern>
+        <template>hello!<think><set name='username'><star/></set></think></template>
+    </category>
+    <category>
+        <pattern>byby</pattern>
+        <template>好的，晚安<get name="username"/></template>
+    </category>
+    <category>
+        <pattern>你好</pattern>
+        <template>
+          <random>
+            <li>你好，一起来玩吧</li>
+            <li>好，大家好才是好</li>
+              <li>nihaoa</li>
+        </random>
+        </template>
+    </category>
+
+</aiml>
