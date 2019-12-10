@@ -1,0 +1,12 @@
+2019/12/06 11:52:51 -INFO -test filter
+2019/12/06 11:52:51 -INFO -this is an information, something is terrible
+2019/12/06 11:52:51 -ERROR -this is error information something
+2019/12/06 11:52:51 -DEBUG -this is an debug info something
+2019/12/06 11:56:12 -%(levelname)s -test filter
+2019/12/06 11:56:12 -%(levelname)s -this is an information, something is terrible
+2019/12/06 11:56:12 -%(levelname)s -this is error information something
+2019/12/06 11:56:12 -%(levelname)s -this is an debug info something
+2019/12/06 11:56:29 -mylogger -INFO -test filter
+2019/12/06 11:56:29 -mylogger -INFO -this is an information, something is terrible
+2019/12/06 11:56:29 -mylogger -ERROR -this is error information something
+2019/12/06 11:56:29 -mylogger -DEBUG -this is an debug info something

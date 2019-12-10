@@ -1,0 +1,12 @@
+2019-12-06 10:13:13,927 -DEBUG -this is an debug info
+2019-12-06 10:13:13,927 -INFO -this is an information
+2019-12-06 10:13:13,927 -WARNING -this is warning information
+2019-12-06 10:13:13,927 -ERROR -this is error information
+2019-12-06 10:16:32 -DEBUG -this is an debug info
+2019-12-06 10:16:32 -INFO -this is an information
+2019-12-06 10:16:32 -WARNING -this is warning information
+2019-12-06 10:16:32 -ERROR -this is error information
+2019/12/06 10:17:04 -DEBUG -this is an debug info
+2019/12/06 10:17:04 -INFO -this is an information
+2019/12/06 10:17:04 -WARNING -this is warning information
+2019/12/06 10:17:04 -ERROR -this is error information
