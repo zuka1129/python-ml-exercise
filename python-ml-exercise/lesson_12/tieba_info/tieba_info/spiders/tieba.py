@@ -51,7 +51,7 @@ class TiebaSpider(scrapy.Spider):
                 tieba_item = TiebaInfoItem()
                 tieba_item['title'] = tit
                 tieba_item['author'] = authors[i]
-                tieba_item['content'] = text_list[i]
+                tieba_item['content'] = ''.join(text_list[i])
                 tieba_item['reply_time'] = sendtime_list[i]
                 tieba_item['floor'] = floor_list[i]
                 yield tieba_item
